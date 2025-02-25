@@ -19,7 +19,7 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [F-23: Operators are unable to perform any actions due to incorrect modifier implementation](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-23)
 - [F-10: User can earn rewards by frontrunning the new rewards accumulation in Ron staking without actually delegating his tokens](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-10)
 
-**Additional issues to be mitigated:**
+**Mitigations of these additional issues will also be considered in-scope:**
 - [F-18: `_checkUserCanReceiveRon` does not guarantee that the user can receive RON](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-18)
 - [F-25: `LiquidRon` vault can be bricked permanently, locking away all `WRON` assets](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-25)
 - [F-2: Proxies cannot be removed, which can cause `LiquidRon.pruneValidatorList`, `LiquidRon.getTotalStaked`, and `LiquidRon.getTotalRewards` function calls to revert due to out of gas](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-2)
