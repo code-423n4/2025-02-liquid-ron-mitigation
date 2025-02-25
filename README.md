@@ -47,7 +47,7 @@ Please provide context about the mitigations that were applied if applicable and
 [ ⭐️ SPONSORS REVIEW AND ADD PURPOSE DETAILS TO THE TABLE BELOW:]
 
 | Mitigation URL | Mitigation of | Purpose | 
-|:-----------:| ------------- | ----------- |
+| ----------- | ------------- | ----------- |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/c30c35b1b5a4adcc46f1d20506a9816f1fec275c) | F-3 | 🔴This mitigation does XYZ | 
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/af83a41854f38a7defef97dde2e8a5a97a0f13d1) | F-23 | 🔴This mitigation does XYZ | 
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/3eb49f91241ef3bf1c8bedda4180ac1c36e80995) | F-10 | 🔴This mitigation does XYZ | 
@@ -58,7 +58,7 @@ Please provide context about the mitigations that were applied if applicable and
 These are additional changes that will be in scope.
 
 | Mitigation URL | Reference ID | Purpose | 
-|:-----------:| ------------- | ----------- |
+| ----------- | ------------- | ----------- |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/14fd27de293430d97aab2b5fe746d2513426dc05) | F-18 | 🔴This mitigation does XYZ |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/0d4844c9697a9365760c7eb1673f5e51c37281b2) | F-25 | 🔴This mitigation does XYZ |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/ea748e02c9dbf700d24e28db1fb9a586ffc24c87) | F-2 | 🔴This mitigation does XYZ |
@@ -68,7 +68,7 @@ These are additional changes that will be in scope.
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/af2165659f4c721e9caa91df8f69db4859360955) | F-22 | 🔴This mitigation does XYZ |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/64a6dfed2ba5691a492883b1efe60f5b7814690e) | F-1 | 🔴This mitigation does XYZ |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/e275282e9365e7b2e0295c464d69197f272c0338) | S-736&ast;| 🔴This mitigation does XYZ |
-| [Link 1](https://github.com/OwlOfMoistness/liquid_ron/commit/08cf347939feafca4681469a2a33606ca826c055) and [Link 2](https://github.com/OwlOfMoistness/liquid_ron/commit/415665dcd7b8cac90b3540c90c3bc32ceaec9121) | ADD-01 | 🔴This mitigation does XYZ (various QAs) |
+| [Link 1](https://github.com/OwlOfMoistness/liquid_ron/commit/08cf347939feafca4681469a2a33606ca826c055), [Link 2](https://github.com/OwlOfMoistness/liquid_ron/commit/415665dcd7b8cac90b3540c90c3bc32ceaec9121) | ADD-01 | 🔴This mitigation does XYZ (various QAs) |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/be97c210ae421bc0e9a5147c2ede584caea0bb53) | ADD-02 | 🔴This mitigation does XYZ (link test) |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/354c741e989f5d27a2f55b68b190a7fc71b26135) | ADD-03 | 🔴This mitigation does XYZ (Add forge lib) |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/017f2bb1e2d7de54726969529eec1f3be9cc4329) | ADD-04 | 🔴This mitigation does XYZ (Add periodStartVariable for external data tracking) |
