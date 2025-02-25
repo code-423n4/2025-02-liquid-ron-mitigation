@@ -44,8 +44,6 @@ Please provide context about the mitigations that were applied if applicable and
 - Commits: https://github.com/OwlOfMoistness/liquid_ron/compare/main...ca4-mitigation
 
 ### Mitigation of High & Medium Severity Issues
-[ ⭐️ SPONSORS REVIEW DETAILS IN THE TABLE BELOW TO ENSURE ACCURACY AND COMPLETENESS:]
-
 | Mitigation URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/c30c35b1b5a4adcc46f1d20506a9816f1fec275c) | F-3 | Add operatorFeeAmount in totalAssets calculations | 
@@ -53,8 +51,6 @@ Please provide context about the mitigations that were applied if applicable and
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/3eb49f91241ef3bf1c8bedda4180ac1c36e80995) | F-10 | Add a deposit fee that can be reset every period based on daily expected rewards | 
 
 ### Additional scope to be reviewed
-[ ⭐️ SPONSORS REVIEW DETAILS IN THE TABLE BELOW TO ENSURE ACCURACY AND COMPLETENESS:]
-
 These are additional changes that will be in scope.
 
 | Mitigation URL | Reference ID | Purpose | 
