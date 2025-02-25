@@ -47,7 +47,7 @@ Please provide context about the mitigations that were applied if applicable and
 [ ⭐️ SPONSORS REVIEW AND ADD PURPOSE DETAILS TO THE TABLE BELOW:]
 
 | Mitigation URL | Mitigation of | Purpose | 
-| ----------- | ------------- | ----------- |
+|:-----------:| ------------- | ----------- |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/c30c35b1b5a4adcc46f1d20506a9816f1fec275c) | F-3 | 🔴This mitigation does XYZ | 
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/af83a41854f38a7defef97dde2e8a5a97a0f13d1) | F-23 | 🔴This mitigation does XYZ | 
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/3eb49f91241ef3bf1c8bedda4180ac1c36e80995) | F-10 | 🔴This mitigation does XYZ | 
@@ -58,7 +58,7 @@ Please provide context about the mitigations that were applied if applicable and
 These are additional changes that will be in scope.
 
 | Mitigation URL | Reference ID | Purpose | 
-| ----------- | ------------- | ----------- |
+|:-----------:| ------------- | ----------- |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/14fd27de293430d97aab2b5fe746d2513426dc05) | F-18 | 🔴This mitigation does XYZ |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/0d4844c9697a9365760c7eb1673f5e51c37281b2) | F-25 | 🔴This mitigation does XYZ |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/ea748e02c9dbf700d24e28db1fb9a586ffc24c87) | F-2 | 🔴This mitigation does XYZ |
