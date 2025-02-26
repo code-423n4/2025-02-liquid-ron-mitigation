@@ -1,3 +1,5 @@
+# Liquid Ron Mitigation 
+
 # Liquid Ron Mitigation Review
 - Total Prize Pool: $5,000 in USDC
   - Warden awards: $3,750 in USDC
@@ -24,18 +26,18 @@ Mitigations of these additional issues will also be considered in-scope:
 - [F-25: `LiquidRon` vault can be bricked permanently, locking away all `WRON` assets](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-25)
 - [F-2: Proxies cannot be removed, which can cause `LiquidRon.pruneValidatorList`, `LiquidRon.getTotalStaked`, and `LiquidRon.getTotalRewards` function calls to revert due to out of gas](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-2)
 - [F-45: Validator Stake Count is not updated in ValidatorTracker](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-45)
-- [F-32: https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-32](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-32)
+- [F-32: Wrong Event Emission in Redeem Function](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-32)
 - [F-156: `validatorIndex` Not Cleared When Removing a Validator](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-156)
 - [F-22: Unnecessary loop could lead to DOS because of too much gas is needed](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-22)
 - [F-1: The paused vault can receive deposits from the user](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-1)
+- [F-17: Locked Funds](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-17)
+- [F-27: Reentrancy in `_checkUserCanReceiveRon` can be exploited by malicious operator](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/F-27)
 - [S-736: QA Report - Low 4 (Inefficient view functions for large datasets)](https://code4rena.com/evaluate/2025-01-liquid-ron/findings/S-736)
 - Various QA items (listed in scope table below, i.e. ADD-01 through ADD-04)
 
-## Overview of changes [optional]
+## Overview of changes 
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
-Please provide context about the mitigations that were applied if applicable and identify any areas of specific concern. 
+The findings `F-17`, `F-27`, and `F-18` have all been fixed by omitting the `_checkUserCanReceiveRon` implementation and replacing it with the capability to specify a different `receiver` when performing withdrawal requests as well as deposits.
 
 ## Scope
 
@@ -55,7 +57,7 @@ These are additional changes that will be in scope.
 
 | Mitigation URL | Reference ID | Purpose | 
 | ----------- | ------------- | ----------- |
-| [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/14fd27de293430d97aab2b5fe746d2513426dc05) | F-18 | Update flow of withdrawal to add changeable receiver |
+| [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/14fd27de293430d97aab2b5fe746d2513426dc05) | F-18, F-17, F-27 | Update flow of withdrawal to add changeable receiver |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/0d4844c9697a9365760c7eb1673f5e51c37281b2) | F-25 | Replace validator data storage from consensus addresses to IDs which never change |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/ea748e02c9dbf700d24e28db1fb9a586ffc24c87) | F-2 | Add start index to start loop on specif validator and length of computation |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/15ef42af4bd5391b43824b262affe605176b3aa4) | F-45 | QA, remove unused mapping |
