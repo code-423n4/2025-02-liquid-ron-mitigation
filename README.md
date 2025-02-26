@@ -1,5 +1,3 @@
-# Liquid Ron Mitigation 
-
 # Liquid Ron Mitigation Review
 - Total Prize Pool: $5,000 in USDC
   - Warden awards: $3,750 in USDC
