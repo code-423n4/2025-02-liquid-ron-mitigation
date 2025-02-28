@@ -7,9 +7,14 @@
 - Starts February 26, 2025 20:00 UTC
 - Ends March 3, 2025 20:00 UTC
 
-## Important note 
+## Important notes
 
 Each warden must submit a mitigation review for *every* individual item listed in the `Scope` section below. **Incomplete mitigation reviews will not be eligible for awards.**
+
+### ❗️Update: February 28, 2025
+A [new commit](https://github.com/OwlOfMoistness/liquid_ron/commit/de29bfdcd284df362dcdc217833fac168ac4c9b1) was pushed to the Liquid Ron repo on February 28, 2025 20:03 UTC to add some logging data on a contract -- specifically, tracking the timestamp of delegation action. 
+
+C4's team had reviewed the commit and as it did not appear to interact with any existing code, we have made an exception to our code freeze requirement.
 
 ## Findings being mitigated
 
