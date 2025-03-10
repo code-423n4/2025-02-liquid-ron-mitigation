@@ -40,7 +40,7 @@ Mitigations of these additional issues will also be considered in-scope:
 
 ## Overview of changes 
 
-The findings `F-17`, `F-27`, and `F-18` have all been fixed by omitting the `_checkUserCanReceiveRon` implementation and replacing it with the capability to specify a different `receiver` when performing withdrawal requests as well as deposits.
+Note that the findings `F-17`, `F-27`, and `F-18` have all been fixed by omitting the `_checkUserCanReceiveRon` implementation and replacing it with the capability to specify a different `receiver` when performing withdrawal requests as well as deposits. These findings are grouped under the reference ID `FX-1` in the Scope section below.
 
 ## Scope
 
@@ -60,7 +60,7 @@ These are additional changes that will be in scope.
 
 | Mitigation URL | Reference ID | Purpose | 
 | ----------- | ------------- | ----------- |
-| [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/14fd27de293430d97aab2b5fe746d2513426dc05) | F-18, F-17, F-27 | Update flow of withdrawal to add changeable receiver |
+| [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/14fd27de293430d97aab2b5fe746d2513426dc05) | FX-1 | Update flow of withdrawal to add changeable receiver |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/0d4844c9697a9365760c7eb1673f5e51c37281b2) | F-25 | Replace validator data storage from consensus addresses to IDs which never change |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/ea748e02c9dbf700d24e28db1fb9a586ffc24c87) | F-2 | Add start index to start loop on specif validator and length of computation |
 | [Link](https://github.com/OwlOfMoistness/liquid_ron/commit/15ef42af4bd5391b43824b262affe605176b3aa4) | F-45 | QA, remove unused mapping |
